@@ -1,0 +1,15 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.name "Joanderson"
+git config user.email "joanderson_luan@hotmail.com"
+echo "Joanderson Luan da Silva Linhares - 70141542497" > dados.txt
+git add dados.txt
+git commit -m "Primeiro commit: Adiciona arquivo com nome e matrícula"
+git remote add origin https://github.com/N1LB13/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
+nano comandos.txt
+git add comandos.txt
+git commit -m "Adiciona arquivo com lista de comandos usados"
+git push
